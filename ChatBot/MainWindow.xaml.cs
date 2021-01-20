@@ -117,6 +117,7 @@ namespace ChatBot
                 Properties.Settings.Default.ColorUsuario = config.ColorUsuario;
                 Properties.Settings.Default.Genero = config.Usuario;
                 Properties.Settings.Default.Save();
+
             }
         }
 

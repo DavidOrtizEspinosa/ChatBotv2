@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChatBot.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ColorFondo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LightYellow</Value>
+    </Setting>
+    <Setting Name="ColorUsuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LightGreen</Value>
+    </Setting>
+    <Setting Name="ColorBot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LightBlue</Value>
+    </Setting>
+    <Setting Name="Genero" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hombre</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

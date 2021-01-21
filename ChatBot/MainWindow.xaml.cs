@@ -123,7 +123,17 @@ namespace ChatBot
 
         private void CommandBinding_SendExecuted(object sender, RoutedEventArgs e)
         {
-            Mensaje m = new Mensaje(mensajeTextBox.Text, Mensaje.TipoEmisor.Hombre);
+            Mensaje.TipoEmisor emisor;
+            if(Properties.Settings.Default.Genero == Mensaje.TipoEmisor.Hombre.ToString())
+            {
+                emisor = Mensaje.TipoEmisor.Hombre;
+            }
+            else
+            {
+                emisor = Mensaje.TipoEmisor.Mujer;
+            }
+
+            Mensaje m = new Mensaje(mensajeTextBox.Text, emisor);
             mensajes.Add(m);
             mensajes.Add(new Mensaje("Lo siento, estoy un poco cansado para hablar", Mensaje.TipoEmisor.Bot));
             mensajeTextBox.Clear();
